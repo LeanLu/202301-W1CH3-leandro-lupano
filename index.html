@@ -6,15 +6,15 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Compras</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/style.css">
   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 </head>
 
 <body>
 
   <header>
-    <section>
-      <h1>Lista de compras</h1>
+    <section class="header-nav">
+      <h1>Lista de la compra</h1>
       <nav>
         <ul>
           <li><a href="index.html">Principal</a></li>
@@ -24,44 +24,45 @@
       </nav>
     </section>
 
-    <section>
-      <button>+</button>
+    <section class="header-button">
+      <button><a href="form.html">+</a></button>
       <h2>2/3 Comprados</h2>
     </section>
   </header>
 
   <main>
 
-    <div>
+    <section>
+      <div>
+        <ul class="products">
+          <li><input type="checkbox" name="pan" id="pan"><label for="pan">Pan</label></li>
+          <li><input type="checkbox" name="azucar" id="azucar"><label for="azucar">Azúcar</label></li>
+          <li><input type="checkbox" name="leche" id="leche"><label for="leche">Leche</label></li>
+        </ul>
+      </div>
 
       <div>
-        <input type="checkbox" name="pan" id="pan">
-        <label for="pan">Pan</label>
+        <ul class="price">
+          <li>0.75€ <span>X</span></li>
+          <li><span>X</span></li>
+          <li>1.20€ <span>X</span></li>
+        </ul>
       </div>
-      <span>0.75€ X</span>
+    </section>
 
-      <div>
-        <input type="checkbox" name="azucar" id="azucar">
-        <label for="azucar">Azúcar</label>
-      </div>
-      <span>X</span>
-
-      <div>
-        <input type="checkbox" name="leche" id="leche">
-        <label for="leche">Leche</label>
-      </div>
-      <span>1.20€ X</span>
-
-    </div>
-
-    <div>
+    <div class="final-price">
       <span>1.95€</span>
     </div>
 
   </main>
 
   <footer>
-    <img src="w3c-Logo.JPG" alt="Logo w3C web Ok">
+    <p>
+      <a href="http://jigsaw.w3.org/css-validator/check/referer">
+        <img style="border:0;width:88px;height:31px" src="http://jigsaw.w3.org/css-validator/images/vcss"
+          alt="Valid CSS!" />
+      </a>
+    </p>
   </footer>
 
 
