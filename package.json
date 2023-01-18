@@ -1,0 +1,16 @@
+{
+  "name": "w1ch3",
+  "version": "1.0.0",
+  "description": "Maquetación Lista de la compra",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "list",
+    "buy",
+    "shop"
+  ],
+  "author": "Leandro Lupano",
+  "license": "ISC"
+}
